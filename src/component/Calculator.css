@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 50px;
+    background-color: burlywood;
+    flex-direction: column;
+}
+.result{
+    display: flex;
+    width: 210px;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 30px;
+}
+.result.num::after{
+    content: "=";
+    height: inherit;
+    font-weight: lighter;
+}
+.btn{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 2px;
+}
